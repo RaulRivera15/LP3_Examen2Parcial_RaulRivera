@@ -93,7 +93,7 @@ namespace Examen2ParcialRaulRivera.Controladores
 
             if (operacion == "Nuevo")
             {
-
+                  
                 if (inserto)
                 {
                     DesabilitarControles();

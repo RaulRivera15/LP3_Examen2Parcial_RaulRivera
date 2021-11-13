@@ -32,7 +32,7 @@ namespace Examen2ParcialRaulRivera.Modelos.DAO
                 return true;
                 MiConexion.Close();
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 return false;
             }
