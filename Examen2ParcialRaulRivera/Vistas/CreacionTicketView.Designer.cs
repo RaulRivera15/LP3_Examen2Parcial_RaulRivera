@@ -48,6 +48,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             this.DescripcionProblemaTextBox = new System.Windows.Forms.TextBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
             this.TipoSoporteComboBox = new System.Windows.Forms.ComboBox();
+            this.label7 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.CreacionTicketDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -103,7 +104,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(263, 32);
+            this.IdTextBox.Location = new System.Drawing.Point(263, 49);
             this.IdTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.ReadOnly = true;
@@ -113,7 +114,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(207, 35);
+            this.label5.Location = new System.Drawing.Point(207, 52);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(24, 16);
@@ -123,7 +124,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(122, 78);
+            this.label3.Location = new System.Drawing.Point(122, 95);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(109, 16);
@@ -132,7 +133,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // NombreClienteTextBox
             // 
-            this.NombreClienteTextBox.Location = new System.Drawing.Point(263, 117);
+            this.NombreClienteTextBox.Location = new System.Drawing.Point(263, 134);
             this.NombreClienteTextBox.Name = "NombreClienteTextBox";
             this.NombreClienteTextBox.Size = new System.Drawing.Size(272, 22);
             this.NombreClienteTextBox.TabIndex = 41;
@@ -140,7 +141,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(105, 123);
+            this.label2.Location = new System.Drawing.Point(105, 140);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(126, 16);
             this.label2.TabIndex = 40;
@@ -149,7 +150,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(176, 161);
+            this.label1.Location = new System.Drawing.Point(176, 178);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(55, 16);
             this.label1.TabIndex = 42;
@@ -157,14 +158,14 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // EmailTextBox
             // 
-            this.EmailTextBox.Location = new System.Drawing.Point(263, 158);
+            this.EmailTextBox.Location = new System.Drawing.Point(263, 175);
             this.EmailTextBox.Name = "EmailTextBox";
             this.EmailTextBox.Size = new System.Drawing.Size(272, 22);
             this.EmailTextBox.TabIndex = 43;
             // 
             // DireccionTextBox
             // 
-            this.DireccionTextBox.Location = new System.Drawing.Point(263, 203);
+            this.DireccionTextBox.Location = new System.Drawing.Point(263, 220);
             this.DireccionTextBox.Name = "DireccionTextBox";
             this.DireccionTextBox.Size = new System.Drawing.Size(272, 22);
             this.DireccionTextBox.TabIndex = 45;
@@ -172,7 +173,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(160, 206);
+            this.label4.Location = new System.Drawing.Point(160, 223);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(71, 16);
             this.label4.TabIndex = 44;
@@ -181,7 +182,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(65, 250);
+            this.label6.Location = new System.Drawing.Point(65, 267);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(166, 16);
             this.label6.TabIndex = 46;
@@ -189,7 +190,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // DescripcionProblemaTextBox
             // 
-            this.DescripcionProblemaTextBox.Location = new System.Drawing.Point(262, 247);
+            this.DescripcionProblemaTextBox.Location = new System.Drawing.Point(262, 264);
             this.DescripcionProblemaTextBox.Name = "DescripcionProblemaTextBox";
             this.DescripcionProblemaTextBox.Size = new System.Drawing.Size(272, 22);
             this.DescripcionProblemaTextBox.TabIndex = 47;
@@ -206,10 +207,20 @@ namespace Examen2ParcialRaulRivera.Vistas
             "Limpieza",
             "Reparacion",
             "Activacion"});
-            this.TipoSoporteComboBox.Location = new System.Drawing.Point(263, 78);
+            this.TipoSoporteComboBox.Location = new System.Drawing.Point(263, 95);
             this.TipoSoporteComboBox.Name = "TipoSoporteComboBox";
             this.TipoSoporteComboBox.Size = new System.Drawing.Size(165, 24);
             this.TipoSoporteComboBox.TabIndex = 48;
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.Location = new System.Drawing.Point(283, 12);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(177, 24);
+            this.label7.TabIndex = 49;
+            this.label7.Text = "Creación de Tickets";
             // 
             // CreacionTicketView
             // 
@@ -217,6 +228,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(821, 521);
+            this.Controls.Add(this.label7);
             this.Controls.Add(this.TipoSoporteComboBox);
             this.Controls.Add(this.DescripcionProblemaTextBox);
             this.Controls.Add(this.label6);
@@ -237,7 +249,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "CreacionTicketView";
-            this.Text = "CreacionTicketView";
+            this.Text = "Creación de Ticket";
             ((System.ComponentModel.ISupportInitialize)(this.CreacionTicketDataGridView)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
@@ -265,5 +277,6 @@ namespace Examen2ParcialRaulRivera.Vistas
         public System.Windows.Forms.TextBox DescripcionProblemaTextBox;
         public System.Windows.Forms.ErrorProvider errorProvider1;
         public System.Windows.Forms.ComboBox TipoSoporteComboBox;
+        private System.Windows.Forms.Label label7;
     }
 }

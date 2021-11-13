@@ -46,6 +46,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             this.TipoDataGridView = new System.Windows.Forms.DataGridView();
             this.TipoSoporteComboBox = new System.Windows.Forms.ComboBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label6 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.TipoDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -53,7 +54,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(119, 81);
+            this.label1.Location = new System.Drawing.Point(119, 93);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(118, 18);
@@ -63,7 +64,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(146, 225);
+            this.label2.Location = new System.Drawing.Point(146, 237);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(91, 18);
@@ -72,7 +73,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // DescripcionTextBox
             // 
-            this.DescripcionTextBox.Location = new System.Drawing.Point(270, 222);
+            this.DescripcionTextBox.Location = new System.Drawing.Point(270, 234);
             this.DescripcionTextBox.Margin = new System.Windows.Forms.Padding(4);
             this.DescripcionTextBox.Name = "DescripcionTextBox";
             this.DescripcionTextBox.Size = new System.Drawing.Size(454, 24);
@@ -81,7 +82,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(152, 131);
+            this.label3.Location = new System.Drawing.Point(152, 143);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(85, 18);
             this.label3.TabIndex = 4;
@@ -90,7 +91,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(182, 180);
+            this.label4.Location = new System.Drawing.Point(182, 192);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(55, 18);
             this.label4.TabIndex = 5;
@@ -98,14 +99,14 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // DispositivoTextBox
             // 
-            this.DispositivoTextBox.Location = new System.Drawing.Point(270, 128);
+            this.DispositivoTextBox.Location = new System.Drawing.Point(270, 140);
             this.DispositivoTextBox.Name = "DispositivoTextBox";
             this.DispositivoTextBox.Size = new System.Drawing.Size(180, 24);
             this.DispositivoTextBox.TabIndex = 6;
             // 
             // PrecioTextBox
             // 
-            this.PrecioTextBox.Location = new System.Drawing.Point(270, 177);
+            this.PrecioTextBox.Location = new System.Drawing.Point(270, 189);
             this.PrecioTextBox.Name = "PrecioTextBox";
             this.PrecioTextBox.Size = new System.Drawing.Size(180, 24);
             this.PrecioTextBox.TabIndex = 7;
@@ -113,7 +114,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(211, 37);
+            this.label5.Location = new System.Drawing.Point(211, 49);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(26, 18);
             this.label5.TabIndex = 8;
@@ -121,7 +122,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // IdTextBox
             // 
-            this.IdTextBox.Location = new System.Drawing.Point(270, 37);
+            this.IdTextBox.Location = new System.Drawing.Point(270, 49);
             this.IdTextBox.Name = "IdTextBox";
             this.IdTextBox.ReadOnly = true;
             this.IdTextBox.Size = new System.Drawing.Size(180, 24);
@@ -130,7 +131,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // CancelarButton
             // 
             this.CancelarButton.Enabled = false;
-            this.CancelarButton.Location = new System.Drawing.Point(585, 282);
+            this.CancelarButton.Location = new System.Drawing.Point(585, 294);
             this.CancelarButton.Name = "CancelarButton";
             this.CancelarButton.Size = new System.Drawing.Size(85, 27);
             this.CancelarButton.TabIndex = 19;
@@ -139,7 +140,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // EliminarButton
             // 
-            this.EliminarButton.Location = new System.Drawing.Point(490, 282);
+            this.EliminarButton.Location = new System.Drawing.Point(490, 294);
             this.EliminarButton.Name = "EliminarButton";
             this.EliminarButton.Size = new System.Drawing.Size(89, 27);
             this.EliminarButton.TabIndex = 18;
@@ -149,7 +150,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // GuardarButton
             // 
             this.GuardarButton.Enabled = false;
-            this.GuardarButton.Location = new System.Drawing.Point(390, 282);
+            this.GuardarButton.Location = new System.Drawing.Point(390, 294);
             this.GuardarButton.Name = "GuardarButton";
             this.GuardarButton.Size = new System.Drawing.Size(94, 27);
             this.GuardarButton.TabIndex = 17;
@@ -158,7 +159,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             // NuevoButton
             // 
-            this.NuevoButton.Location = new System.Drawing.Point(287, 282);
+            this.NuevoButton.Location = new System.Drawing.Point(287, 294);
             this.NuevoButton.Name = "NuevoButton";
             this.NuevoButton.Size = new System.Drawing.Size(97, 27);
             this.NuevoButton.TabIndex = 15;
@@ -183,7 +184,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             "Limpieza",
             "Reparacion",
             "Activacion"});
-            this.TipoSoporteComboBox.Location = new System.Drawing.Point(270, 78);
+            this.TipoSoporteComboBox.Location = new System.Drawing.Point(270, 90);
             this.TipoSoporteComboBox.Name = "TipoSoporteComboBox";
             this.TipoSoporteComboBox.Size = new System.Drawing.Size(165, 26);
             this.TipoSoporteComboBox.TabIndex = 49;
@@ -192,12 +193,23 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Location = new System.Drawing.Point(266, 9);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(303, 20);
+            this.label6.TabIndex = 50;
+            this.label6.Text = "Tipos de Soportes que Brinda la Empresa";
+            // 
             // TipoSoporteView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(899, 488);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.TipoSoporteComboBox);
             this.Controls.Add(this.TipoDataGridView);
             this.Controls.Add(this.CancelarButton);
@@ -241,5 +253,6 @@ namespace Examen2ParcialRaulRivera.Vistas
         public System.Windows.Forms.DataGridView TipoDataGridView;
         public System.Windows.Forms.ComboBox TipoSoporteComboBox;
         public System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label6;
     }
 }

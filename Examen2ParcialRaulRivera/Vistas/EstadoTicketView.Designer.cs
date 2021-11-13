@@ -44,6 +44,7 @@ namespace Examen2ParcialRaulRivera.Vistas
             this.label3 = new System.Windows.Forms.Label();
             this.TipoSoporteComboBox = new System.Windows.Forms.ComboBox();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.EstadoTicketDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
@@ -181,12 +182,23 @@ namespace Examen2ParcialRaulRivera.Vistas
             // 
             this.errorProvider1.ContainerControl = this;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(323, 18);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(188, 24);
+            this.label4.TabIndex = 50;
+            this.label4.Text = "Estado de los Tickets";
+            // 
             // EstadoTicketView
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(128)))));
             this.ClientSize = new System.Drawing.Size(861, 496);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.TipoSoporteComboBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.CancelarButton);
@@ -228,5 +240,6 @@ namespace Examen2ParcialRaulRivera.Vistas
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.ComboBox TipoSoporteComboBox;
         public System.Windows.Forms.ErrorProvider errorProvider1;
+        private System.Windows.Forms.Label label4;
     }
 }
