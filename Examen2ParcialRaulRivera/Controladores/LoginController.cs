@@ -38,9 +38,9 @@ namespace Examen2ParcialRaulRivera.Controladores
             {
                 MessageBox.Show("Usuario Correcto");
 
-                //MenuView menu = new MenuView();
-                //vista.Hide();
-                //menu.Show();
+                MenuView menu = new MenuView();
+                vista.Hide();
+                menu.Show();
 
 
             }
